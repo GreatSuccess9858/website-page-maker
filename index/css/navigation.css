@@ -1,0 +1,54 @@
+body {
+    background-color: #FFCDD2;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 60vw;
+}
+
+.navbar-brand {
+    padding: 14px 20px;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item {
+    padding: 6px 14px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-link {
+    padding-bottom: 10px;
+}
+
+.v-line {
+    background-color: gray;
+    width: 1px;
+    height: 20px;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        width: 100%;
+        text-align: left;
+    }
+
+    .v-line {
+        display: none;
+    }
+}
